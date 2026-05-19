@@ -17,3 +17,17 @@ endpoints:
       modelDisplayLabel: "Fireworks"
       dropParams:
         - "user"
+    - name: "Featherless"
+      apiKey: "${FEATHERLESS_API_KEY}"
+      baseURL: "https://api.featherless.ai/v1"
+      models:
+        default:
+          - moonshotai/Kimi-K2.6
+        fetch: false
+      titleConvo: true
+      titleModel: "moonshotai/Kimi-K2.6"
+      summarize: false
+      summaryModel: "moonshotai/Kimi-K2.6"
+      modelDisplayLabel: "Featherless"
+      dropParams:
+        - "user"
